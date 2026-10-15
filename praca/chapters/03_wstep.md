@@ -27,10 +27,8 @@ Głównym celem niniejszej pracy jest implementacja scenariusza predykcji wiązk
 W ramach pracy postawiono następujące pytania badawcze:
 1. **PB1:**  Czy modyfikacja architektury modelu lub wstępnego przetwarzania cech pozwala uzyskać wyższą efektywność spektralną w porównaniu z rozwiązaniem bazowym przedstawionym przez Alkhateeba i in. [@alkhateeb2018deep]?
 
+## 1.3. Przegląd literatury 
 
 
-## 1.3. Przegląd literatury
-
-[Krótki przegląd stanu wiedzy wraz z cytowaniami, np. [@breiman2001random; @pedregosa2011scikit]...]
 
 \newpage
