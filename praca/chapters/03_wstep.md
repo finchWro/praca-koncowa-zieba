@@ -29,6 +29,18 @@ W ramach pracy postawiono następujące pytania badawcze:
 
 ## 1.3. Przegląd literatury 
 
+Organizacja standaryzująca 3rd Generation Partnership Project (3GPP) wraz z pierwszym wydaniem 5G-Advanced rozpoczęła prace nad wykorzystaniem AI/ML w sieciach telekomunikacyjnych [@lin2023overview]. W ramach grupy TSG RAN (głównie RAN1) opracowano raport techniczny TR 38.843, opisujący wyniki studium nad zastosowaniem AI/ML w interfejsie radiowym NR [@3gpp_tr38843]. W dokumencie wytypowano trzy przypadki użycia, dla których przeprowadzono badania i które stanowią punkt odniesienia dla prac w tym obszarze:
+
+1. CSI Feedback
+
+2. Beam Management 
+
+3. Positioning 
+
+Aby umożliwić prowadzenie badań i reprodukcję wyników, powstały środowiska, które pozwalają generować zbiory danych dla różnych scenariuszy (np. DeepMIMO [@Alkhateeb2019] czy Sionna [@hoydis2022sionna]).
+
+Alkhateeb i in. badali scenariusz predykcji wiązki wykorzystaniem danych z symulacji ray-tracingowych, które stały się podstawą zbioru DeepMIMO [@Alkhateeb2019]. Wyniki badań wykazały, że ich model głebokiej sieci neuronowej pozwala na poprawienie efektywności spektralnej w prówaniu do metod klasycznych (wykonywania pomiarów na wszystkich wiązkach pilotowych i selekcji najlepszej).
+
 
 
 \newpage
