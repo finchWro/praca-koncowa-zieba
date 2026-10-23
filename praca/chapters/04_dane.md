@@ -12,10 +12,10 @@ Elementy obowiązkowe (§3 i §10.1):
 
 ## 2.1. Źródło i licencja danych
 
-Dane wykorzystane w projekcie pochodzą z [Nazwa źródła / Repozytorium] [@dane_zrodlo].
-- **Data pobrania danych:** [RRRR-MM-DD]
-- **Licencja:** [np. CC-BY 4.0 / Public Domain / Dane edukacyjne]
-- **Adres źródłowy:** [URL]
+Dane wykorzystane w niniejszej pracy pochodzą z projektu DeepMIMO [@deepmimo_website].
+- **Data pobrania danych:** 2026-10-23
+- **Licencja:** otwarta licencja akademicka / badawcza (Academic / Research Non-Commercial Use) z klauzulą obligatoryjnego cytowania publikacji źródłowej DeepMIMO [@Alkhateeb2019] oraz narzędzia ray-tracingowego Remcom Wireless InSite.
+- **Adres źródłowy:** https://www.deepmimo.net/scenarios/v4/o1_60
 
 ## 2.2. Opis cech i zmiennych
 
