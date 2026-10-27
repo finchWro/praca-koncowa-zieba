@@ -5,7 +5,7 @@ Elementy obowiązkowe (§3 i §10.1):
 - Źródło danych z pełnym adresem URL, datą pobrania i licencją (np. CC-BY 4.0).
 - Liczba obserwacji i zmiennych.
 - Tabela zmiennych z opisem typów logicznych i interpretacją biznesową.
-- Podstawowe statystyki opisowe.
+- Podstawowe statystyki opisowe
 - Analiza braków danych i wartości odstających (outlierów).
 - Znane ograniczenia i specyfika zbioru.
 -->
