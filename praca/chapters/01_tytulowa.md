@@ -8,12 +8,12 @@
 
 \vspace{4cm}
 
-**Autor:** [Imię i Nazwisko]  
+**Autor:** Błażej Zięba  
 **Numer albumu / słuchacza:** [Numer]  
-**Kierownik / Opiekun pracy:** [Tytuł, Imię i Nazwisko Opiekuna]  
+**Kierownik / Opiekun pracy:** dr inż. Natalia Piórkowska  
 
 \vspace{3cm}
 
-**Wrocław, [Rok]**
+**Wrocław, 2027**
 
 \newpage

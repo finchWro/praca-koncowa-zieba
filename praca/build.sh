@@ -31,6 +31,7 @@ PANDOC_ARGS=(
     --citeproc
     --toc
     --toc-depth=3
+    --resource-path=".:${SCRIPT_DIR}:${SCRIPT_DIR}/.."
 )
 
 # Dołącz filtr podziału stron (obsługa \newpage i \pagebreak w Wordzie)

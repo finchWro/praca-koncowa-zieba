@@ -25,8 +25,11 @@ W niniejszej pracy wykorzystano zbiór danych DeepMIMO v4 [@deepmimo_website] (A
 Głównym celem pracy jest implementacja i ocena modelu uczenia głębokiego do skoordynowanego kształtowania wiązki (ang. Deep Learning Coordinated Beamforming) w dziedzinie przestrzennej, zgodnie ze scenariuszem opisanym w raporcie 3GPP TR 38.843 [@3gpp_tr38843] oraz metodyką Alkhateeba i in. [@alkhateeb2018deep]. Na podstawie ograniczonej liczby dookólnych pomiarów pilotowych sieć neuronowa wyznacza wiązkę z predefiniowanej książki kodowej. Uzyskaną efektywność spektralną netto (ang. effective spectral efficiency) porównano z dwoma punktami odniesienia z pracy [@alkhateeb2018deep]: wyidealizowanym doborem wiązki bez narzutu treningowego (ang. Genie-Aided Coordinated Beamforming, górna granica wydajności) oraz konwencjonalną metodą bazową opartą na wyczerpującym przeszukiwaniu książki kodowej z uwzględnieniem narzutu czasowego na trening wiązek (ang. Baseline Coordinated Beamforming).
 
 W ramach pracy postawiono następujące pytania badawcze:
+
 1. **PB1:** Czy model wytrenowany na danych DeepMIMO v4 (scenariusz O1, 60 GHz) osiąga efektywność spektralną różniącą się o nie więcej niż 5% od wyników Alkhateeba i in. [@alkhateeb2018deep] przy tej samej liczbie anten i książce kodowej?
+
 2. **PB2:** Jak zmiana architektury sieci (liczba warstw, liczba neuronów) i hiperparametrów treningu wpływa na efektywność spektralną oraz liczbę parametrów i czas inferencji modelu?
+
 3. **PB3:** Czy możliwe jest uruchomienie modeli opracowanych w ramach PB1 i PB2 w środowisku NVIDIA AI Aerial bez zmian w architekturze i jakie są różnice w czasie inferencji oraz wymaganiach sprzętowych względem uruchomienia w PyTorch?
 
 ## 1.3. Przegląd literatury 
