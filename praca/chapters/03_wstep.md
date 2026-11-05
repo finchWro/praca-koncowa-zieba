@@ -32,6 +32,8 @@ W ramach pracy postawiono następujące pytania badawcze:
 
 3. **PB3:** Czy możliwe jest uruchomienie modeli opracowanych w ramach PB1 i PB2 w środowisku NVIDIA AI Aerial bez zmian w architekturze i jakie są różnice w czasie inferencji oraz wymaganiach sprzętowych względem uruchomienia w PyTorch?
 
+Sformułowanie pytania badawczego PB2 stanowi bezpośrednią odpowiedź na postulat autorów publikacji bazowej [@alkhateeb2018deep]. Przyjmując prostą, arbitralnie dobraną sieć warstw gęstych (ang. *fully-connected*), Alkhateeb i in. podkreślili, że optymalizacja architektury modelu głębokiego uczenia wykracza poza zakres ich artykułu i stanowi jeden z kluczowych kierunków przyszłych badań (ang. *„one of the important future research directions”*). W niniejszej pracy podjęto to zagadnienie, badając kompromis pomiędzy osiąganą efektywnością spektralną a złożonością obliczeniową, liczbą parametrów oraz czasem inferencji sieci w warunkach ograniczeń czasowych interfejsu radiowego.
+
 ## 1.3. Przegląd literatury 
 
 Organizacja standaryzująca 3GPP wraz z pierwszym wydaniem 5G-Advanced rozpoczęła prace nad wykorzystaniem AI/ML w sieciach telekomunikacyjnych [@lin2023overview]. W ramach grupy roboczej TSG RAN (ang. Technical Specification Group Radio Access Network) opracowano raport techniczny TR 38.843, opisujący wyniki studium nad zastosowaniem AI/ML w interfejsie radiowym NR (ang. New Radio) [@3gpp_tr38843]. W dokumencie wytypowano trzy przypadki użycia, dla których przeprowadzono badania i które stanowią punkt odniesienia dla prac w tym obszarze:

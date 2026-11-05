@@ -70,7 +70,7 @@ W łączu w górę (ang. *uplink*) stacja bazowa odbiera sygnał pilotowy za pom
 
 Terminal użytkownika (ang. *User Equipment*, UE) wyposażono w pojedynczy dipol półfalowy umieszczony na wysokości $2\text{ m}$ nad poziomem terenu. Układ nadawczo-odbiorczy tworzy zatem konfigurację MISO (ang. *Multiple-Input Single-Output*).
 
-Dane wejściowe i wyjściowe do uczenia maszynowego przygotowano przy pomocy biblioteki DeepMIMO na podstawie scenariusza ray-tracingowego `o1_60`. Szczegółowe zestawienie parametrów konfiguracyjnych podano w tabeli 1. 
+Dane wejściowe i wyjściowe do uczenia maszynowego przygotowano za pomocą biblioteki DeepMIMO na podstawie scenariusza ray-tracingowego `o1_60`. Szczegółowe zestawienie parametrów konfiguracyjnych podano w tabeli 1. 
 
 Tabela 1. Zestawienie parametrów konfiguracyjnych generatora kanałów DeepMIMO.
 
@@ -96,7 +96,7 @@ Tabela 1. Zestawienie parametrów konfiguracyjnych generatora kanałów DeepMIMO
 | | Zjawisko Dopplera (`doppler`) | `False` | logiczny | Pominięcie dynamicznego przesunięcia Dopplera (statyczne migawki kanału w punktach siatki). |
 | **Książka kodowa i model szumu** | Książka kodowa kształtowania wiązki (Codebook) | Macierz DFT $256 \times 512$ | zespolona macierz | Dwukrotne nadpróbkowanie w płaszczyźnie azymutu (`oversampling_rate = [1, 2, 1]`), dające $64 \times 8 = \mathbf{512}$ kierunków wiązek na stację bazową. |
 | | Współczynnik szumów odbiornika (NF) | $5\text{ dB}$ | dB | Typowa wartość szumów własnych głowicy odbiorczej RF stacji bazowej w paśmie 60 GHz. |
-| | Zysk przetwarzania estymacji (Processing Gain) | $10\text{ dB}$ | dB | Zysk z koherentnej korelacji sekwencji pilotującej podczas estymacji kanału w łączu w górę. |
+| | Zysk przetwarzania estymacji (Processing Gain) | $10\text{ dB}$ | dB | Zysk z koherentnej korelacji sekwencji pilotowej podczas estymacji kanału w łączu w górę. |
 | | Gęstość widmowa mocy szumu | $-204\text{ dBW/Hz}$ | dBW/Hz | Odpowiada $-174\text{ dBm/Hz}$ (szum termiczny w temperaturze pokojowej $T_0 = 290\text{ K}$). |
 
 ### 2.2.2. Zestawienie cech i zmiennych w zbiorze danych
