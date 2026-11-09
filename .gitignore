@@ -1,1 +1,12 @@
-.cache
+# Środowisko i cache
+.cache/
+__pycache__/
+*.pyc
+
+# Wygenerowane dokumenty końcowe (kompilowane ze źródeł Markdown)
+praca/praca_koncowa.docx
+docs/*.pdf
+*.pdf
+
+# Zachowaj szablon stylów Pandoc
+!praca/reference.docx

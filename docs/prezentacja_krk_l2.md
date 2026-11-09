@@ -4,7 +4,7 @@ theme: default
 size: 16:9
 paginate: true
 math: katex
-header: "KRK L2 AI/ML Discussion Forum | Błażej Zięba"
+header: "Forum Dyskusyjne KRK L2 AI/ML | Błażej Zięba"
 footer: "Maksymalizacja efektywności spektralnej w sieciach 5G/6G Massive MIMO przy pomocy predykcji wiązki w dziedzinie przestrzeni"
 style: |
   section {
@@ -66,15 +66,18 @@ style: |
 <!-- _header: "" -->
 <!-- _footer: "" -->
 
-# Deep Learning-based Spatial Beamforming
-### From Ray-Tracing and DeepMIMO to Real-Time Inference in 5G-Advanced
+# Maksymalizacja efektywności spektralnej w sieciach 5G/6G Massive MIMO
+### Predykcja wiązki w dziedzinie przestrzeni: od ray-tracingu i DeepMIMO do inferencji w czasie rzeczywistym w 5G-Advanced
 
 **Prezenter:** Błażej Zięba  
-**Forum:** KRK L2 AI/ML Discussion Forum  
-**Kontekst:** 3GPP Rel-18 (TR 38.843) / 5G mmWave Beam Management  
+**Forum:** Forum Dyskusyjne KRK L2 AI/ML  
+**Kontekst:** Standard 3GPP Rel-18 (TR 38.843) / Zarządzanie wiązką w pasmach fal milimetrowych  
 **Data:** Listopad 2026
 
 <!-- note:
+Dzień dobry wszystkim. Nazywam się Błażej Zięba i witam na dzisiejszym spotkaniu forum dyskusyjnego KRK L2 AI/ML.
+Tematem prezentacji jest maksymalizacja efektywności spektralnej w sieciach 5G-Advanced i 6G Massive MIMO przy pomocy predykcji wiązki w dziedzinie przestrzeni.
+Przedstawię pełną ścieżkę inżynierską: od symulacji fizyki propagacji ray-tracingu i generatora DeepMIMO, przez modelowanie w PyTorch, aż po optymalizację pod kątem inferencji w czasie rzeczywistym w warstwie L2.
 -->
 
 ---
