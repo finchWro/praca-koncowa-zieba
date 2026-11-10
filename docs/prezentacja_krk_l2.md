@@ -667,3 +667,23 @@ Warto jasno zaznaczyć granice projektu: uruchomienie na fizycznej platformie sp
 Najbliższe kroki to domknięcie tekstu pracy, recenzja promotorska i obrona dyplomowa na Politechnice Wrocławskiej.
 Dziękuję bardzo za uwagę i zapraszam do dyskusji!
 -->
+
+---
+<!-- _class: compact -->
+<!-- _style: "h1 { font-size: 1.15rem; margin-top: 0; margin-bottom: 0.1rem; }" -->
+
+# Slajd rezerwowy: Propagacja fali 3D i formowanie wiązki (Backup)
+
+<div style="text-align: center; margin-top: 4px;">
+  <img src="figures/propagacja_3d_kula_i_wiazka.png" height="310" style="max-height: 310px; max-width: 96%; height: 310px; object-fit: contain; margin: 0 auto; display: block;" alt="Propagacja fali sferycznej 3D i formowanie wiązki" />
+</div>
+
+<div class="highlight" style="margin-top: 5px;">
+<strong>Zasada fizyczna:</strong> 1. <strong>Uplink (Kula):</strong> Dookólna fala sferyczna rozszerza się w kanionie 3D. Do stacji dociera jedynie 5 geometrycznych ścieżek wielodrogowości (bezpośrednia LoS + fale sferyczne odbite od ścian i jezdni). 2. <strong>Downlink (Wiązka):</strong> 256 anten panelu Massive MIMO dzięki interferencji konstruktywnej skupia moc w wąski stożek ołówkowy ~4° (zysk x256), eliminując straty energii.
+</div>
+
+<!-- note:
+Slajd rezerwowy (Backup) na wypadek pytań technicznych o fizykę propagacji i działanie szyku antenowego:
+Po lewej widzimy modelowanie 3D w kanionie miejskim - telefon nadaje falę sferyczną (kręgi w 3D), która uderza w budynki. Pokazujemy, skąd bierze się 5 najsilniejszych promieni w DeepMIMO - to ścieżka bezpośrednia oraz fale sferyczne odbite od szklanej elewacji, jezdni i kamienicy.
+Po prawej stronie wyjaśniamy istotę beamformingu: stacja bazowa nie emituje kuli, lecz skupia całą moc w wąski stożek ołówkowy o szerokości zaledwie 4 stopni, celujący precyzyjnie w telefon.
+-->
